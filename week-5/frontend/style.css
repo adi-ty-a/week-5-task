@@ -1,0 +1,65 @@
+  /* start from here */
+body{
+  background-color: #B486EC;
+  font-family: Arial, sans-serif;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#container{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 24px;
+    background-color: #BA93EF;
+    padding: 25px;
+  }
+  h1,label,p{
+    color:#8A2BE2;
+    margin: 0;
+  }
+
+  input,#signup{
+    width: 100%;
+    border: none;
+    height: 40px;
+    text-indent: 10px;
+    border-radius: 8px;
+  }
+  input{
+    background-color: #E7F0FE;
+  }
+  #signup{
+    background-color: #8A2BE2;
+    height: 40px;
+    color: white;
+  }
+  .flex{
+    display: flex;
+    gap: 10px;
+  }
+  #button{
+    color: yellow;
+  }
+  
+  input{
+    font-size: 18px;
+  }
+
+  .todo{
+    background-color: #C7A7F2;
+    border-radius: 8px;
+    color: white;
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+  }
+  .todo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
